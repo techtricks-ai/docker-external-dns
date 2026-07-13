@@ -255,7 +255,9 @@ This project is configured with a GitHub Actions pipeline that builds, tests, an
 For details on release process, please refer to the **[Release Process Guide](docs/release/release-process.md)**.
 
 
-<p align="left">
- <img src="docs/img/external-dns-logo.png" width="10%" alt="Docker External DNS">
+
+
+<p align="center">
+ <img src="docs/img/external-dns-logo.png" width="15%" alt="Docker External DNS">
 </p>
 

@@ -1,5 +1,5 @@
 <p align="center">
- <img src="docs/img/external-dns.png" width="30%" alt="ExternalDNS">
+ <img src="docs/img/external-dns.png" width="30%" alt="Docker External DNS">
 </p>
 
 
@@ -211,8 +211,8 @@ services:
 
 For detailed tutorials on setting up Multi-Host Synchronization, please refer to the advanced documentation:
 
-*   **[Syncing DNS records from multiple Docker hosts](https://add-link-here.com):** By defining a comma-separated list of Docker socket URIs or TCP endpoints in the `DOCKER_HOST` variable, you can securely aggregate Docker labels from multiple standalone engines.
-*   **[Syncing DNS records from multiple Docker hosts via Traefik](https://add-link-here.com):** If you run Traefik across multiple Docker nodes, you can centralize your DNS synchronization by scraping the routing tables from each proxy. By providing a JSON array to the `TRAEFIK_INSTANCES` variable, you can connect to multiple independent Traefik APIs (even those on completely separate networks) and seamlessly merge their routes together.
+*   **[Syncing DNS records from multiple Docker hosts](https://medium.com/@shyamjestin/syncing-dns-records-from-multiple-docker-hosts-using-docker-external-dns-c5e748e9d754):** By defining a comma-separated list of Docker socket URIs or TCP endpoints in the `DOCKER_HOST` variable, you can securely aggregate Docker labels from multiple standalone engines.
+*   **[Syncing DNS records from multiple Docker hosts via Traefik](https://medium.com/@shyamjestin/syncing-dns-records-from-multiple-traefik-sources-using-docker-external-dns-df72c21e1f8f):** If you run Traefik across multiple Docker nodes, you can centralize your DNS synchronization by scraping the routing tables from each proxy. By providing a JSON array to the `TRAEFIK_INSTANCES` variable, you can connect to multiple independent Traefik APIs (even those on completely separate networks) and seamlessly merge their routes together.
 
 ### 6. Custom/Corporate SSL Certificates
 
@@ -254,4 +254,8 @@ This project is configured with a GitHub Actions pipeline that builds, tests, an
 
 For details on release process, please refer to the **[Release Process Guide](docs/release/release-process.md)**.
 
+
+<p align="left">
+ <img src="docs/img/external-dns-logo.png" width="10%" alt="Docker External DNS">
+</p>
 
